@@ -41,7 +41,7 @@ def add_watermark_overlay(input_image_path, output_image_path, watermark_text):
         watermarked_image.save(output_image_path)
 
 input_image_path = 'input_image.jpg'
-output_image_directory = '/Users/vanshikajain/Desktop/project/output_images'
+output_image_directory = '/Users/vanshikajain/Desktop/project/watermarkproject/output_images'
 output_image_name = 'output_image.png' 
 output_image_path = os.path.join(output_image_directory, output_image_name)
 watermark_text = 'Vanshika Jain'
